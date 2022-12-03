@@ -1,0 +1,33 @@
+.new-eventform {
+  height: 70%;
+}
+
+.form-control {
+  width: 50%;
+}
+
+#event-title {
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 200px;
+  overflow: scroll;
+}
+
+.invitation-container > button {
+  background-color: white;
+  border-radius: 1px;
+  padding: 3px;
+  border: 1px solid;
+}
+
+.invitation-container > button:hover {
+  box-shadow: inset 100px 0 0 0 #000;
+  color: white;
+}
+
+input {
+  margin: 7px;
+}

@@ -1,0 +1,56 @@
+.my-events-container {
+  float: left;
+  width: 48%; 
+}
+
+.my-invitations-container {
+  float: right;
+  width: 48%;
+}
+
+.event {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  border: 1px solid rgb(179, 177, 177);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 700;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 1.05em;
+}
+
+.dropdown a:hover {
+  box-shadow: none;
+  background-color: green;
+}
+
+.dropdown button:hover {
+  box-shadow: none;
+}
+
+.dropdown-container { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dropdown-item {
+  background-color: green;
+}
+
+.dropdown-item:hover {
+  box-shadow: none;
+}

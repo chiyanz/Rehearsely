@@ -1,0 +1,28 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.login-form > input {
+  line-height: 2.0em;
+}
+
+.login-form > button {
+  width: 150px;
+  margin: 20px;
+  text-align: center;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+
+.login-form > button:hover {
+  box-shadow: inset 300px 0 0 0 #000;
+  color: white;
+  line-height: 1.2em;
+}

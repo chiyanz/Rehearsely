@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald');
+
+body {
+  font-family: 'Oswald';
+  background-color: #f6f7f8;
+}
+.nav-bar {
+  width: 90px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  min-height: 500px;
+  border-right: 1.5px solid;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin-top: -200px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  padding-top: 10px;
+
+}
+
+a  {
+  color: black;
+  font-size: 15px;
+  line-height: 16px;
+  text-decoration: none;
+  align-items: center;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+  box-shadow: inset 100px 0 0 0 #000;
+  color: white;
+  line-height: 1.2em;
+}
+
+.invitation-container, 
+.schedule-container,
+.home-container,
+.login-container,
+.register-container {
+  position: absolute;
+  left: 110px;
+  display: block;
+  width: 87%;
+
+}
+
+.page > h1 {
+  text-align: center;
+}
+
+.user-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 8px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+
+.logout-btn {
+  float: right;
+  background-color: white;
+  border-radius: 1px;
+  padding: 3px;
+  border: 1px solid;
+}
+
+.logout-btn:hover {
+  box-shadow: inset 100px 0 0 0 #000;
+  color: white;
+}
+
+
